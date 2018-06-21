@@ -22,6 +22,7 @@ RUN pip install --upgrade pip && \
   click \
   flake8 \
   git+https://github.com/cornellius-gp/gpytorch.git \
+  ipython \
   jupyter \
   numpy \
   pandas \
