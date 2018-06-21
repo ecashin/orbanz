@@ -11,6 +11,8 @@ RUN apt-get update && apt-get install -y \
   curl \
   dpkg-sig \
   ed \
+  less \
+  man \
   sudo \
   tmux \
   && rm -rf /var/lib/apt/lists/*

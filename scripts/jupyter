@@ -1,0 +1,4 @@
+#! /bin/sh
+
+jupyter notebook --port 8000 --no-browser --ip 0.0.0.0 2>&1 | \
+  sed 's!http://[^:][^:]*:!http://127.0.0.1:!'
