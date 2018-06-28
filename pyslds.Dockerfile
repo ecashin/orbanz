@@ -28,6 +28,7 @@ RUN pip install --upgrade pip && \
   plotly \
   pytest \
   scipy scikit-learn \
+  seaborn \
   torch torchvision
 
 # needs future installed beforehand
